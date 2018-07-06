@@ -3,6 +3,7 @@ def my_collect(arr)
   
   while index < arr.length
     yield arr.collect
+    puts 
     index += 1
   end
 end
