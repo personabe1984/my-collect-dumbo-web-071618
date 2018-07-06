@@ -5,6 +5,7 @@ def my_collect(arr)
     arr_holder.push(yield(arr[i])
     index += 1
   end
+  return arr_holder
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
