@@ -2,7 +2,7 @@ def my_collect(arr)
   index = 0
   
   while index < arr.length
-    yield array[index]
+    yield arr.collect
     index += 1
   end
 end
